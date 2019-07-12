@@ -2,7 +2,7 @@
 var path = require('path')
 
 module.exports = {
-  appName: 'DXY API Mocker',
+  appName: 'HUA API Mocker',
   docsUrl: 'https://github.com/DXY-F2E/api-mocker/tree/master/docs#api-mocker',
   build: {
     env: require('./prod.env'),

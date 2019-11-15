@@ -49,7 +49,6 @@ module.exports = app => {
   })
 
   /* 用户相关 */
-  app.post('/auth/user/dxy-login', 'user.dxyLogin')
   app.get('/auth/user', 'user.get')
   app.post('/auth/user/register', 'user.create')
   app.post('/auth/user/login', 'user.login')

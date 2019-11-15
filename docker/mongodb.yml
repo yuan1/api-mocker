@@ -1,8 +1,8 @@
 version: '2'
 services:
     mongo:
-        image: 'bitnami/mongodb:latest'
+        image: 'bitnami/mongodb:4.2'
         ports:
           - 27017:27017
         volumes:
-          - '~/docker/api-mocker/mongo/data:/bitnami'
+          - './mongo/data:/bitnami'

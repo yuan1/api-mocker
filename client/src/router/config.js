@@ -21,7 +21,6 @@ const Diff = r => require.ensure([], () => r(require('@/views/diff/Index')), 'do
 
 const Auth = r => require.ensure([], () => r(require('@/views/auth/Index')), 'auth')
 const Login = r => require.ensure([], () => r(require('@/views/auth/Login')), 'auth')
-const DxyLogin = r => require.ensure([], () => r(require('@/views/auth/DxyLogin')), 'auth')
 const Register = r => require.ensure([], () => r(require('@/views/auth/Register')), 'auth')
 const FindPass = r => require.ensure([], () => r(require('@/views/auth/FindPass')), 'auth')
 const ResetPass = r => require.ensure([], () => r(require('@/views/auth/ResetPass')), 'auth')
@@ -128,10 +127,6 @@ export default [
       auth: true
     },
     children: [{
-      path: 'dxy-login',
-      name: 'DxyLogin',
-      component: DxyLogin
-    }, {
       path: 'login',
       name: 'Login',
       component: Login

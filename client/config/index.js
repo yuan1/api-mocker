@@ -23,7 +23,7 @@ module.exports = {
     // Set to `true` or `false` to always turn it on or off
     bundleAnalyzerReport: process.env.npm_config_report,
     // 服务端接口的根路径
-    serverRoot: 'f2e.dxy.net/mock-api'
+    serverRoot: 'hua.liuyonghua.cn:7001'
   },
   dev: {
     env: require('./dev.env'),

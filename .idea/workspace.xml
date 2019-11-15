@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="513ee749-6304-49f9-a792-67e9a9381037" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docker/build.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/config/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/router/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/router/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/store/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/views/auth/DxyLogin.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/mongodb.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mongodb.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/mysql.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/app/controller/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app/controller/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/app/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/app/service/dxy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/config/config.local.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/config/config.local.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/config/config.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/config/config.prod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/app.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/app.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +28,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1TdCQlrWOYAlvRzjpSXBZR17yqg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
@@ -67,6 +63,17 @@
     </option>
   </component>
   <component name="RunManager" selected="npm.dev">
+    <configuration name="build.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <module name="api-mocker" />
+      <option name="INTERPRETER_OPTIONS" value="bash" />
+      <option name="INTERPRETER_PATH" value="/usr/bin/env" />
+      <option name="PROJECT_INTERPRETER" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/docker" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/docker/build.sh" />
+      <option name="PARAMETERS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="docker/mongodb.yml.mongo: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
@@ -113,6 +120,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev" />
+        <item itemvalue="Bash.build.sh" />
         <item itemvalue="npm.start" />
         <item itemvalue="Docker.docker/mongodb.yml.mongo: Compose Deployment" />
         <item itemvalue="npm.build" />
@@ -161,7 +169,7 @@
       <option name="presentableId" value="Default" />
       <updated>1562898776106</updated>
       <workItem from="1562898778289" duration="4972000" />
-      <workItem from="1573780573912" duration="4082000" />
+      <workItem from="1573780573912" duration="4790000" />
     </task>
     <servers />
   </component>
@@ -178,5 +186,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

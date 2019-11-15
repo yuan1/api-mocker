@@ -1,8 +1,7 @@
 version: '2'
 services:
-    api-mocker-app:
-        image: api-mocker:latest
-        ports:
-            - 7001:7001
-        network_mode: host
+  api-mock-app:
+    image: ccr.ccs.tencentyun.com/limy/api-mock:latest
+    ports:
+      - 7001:7001
 
